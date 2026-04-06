@@ -42,23 +42,26 @@ The notebook includes a detailed analytical breakdown to demonstrate how multisp
 ### Running the Code
 Run all cells in the provided Jupyter Notebook to install dependencies, load the label metadata, train both models concurrently, and generate the comparative analysis reports.
 
-=== RGB MODEL ===
-              precision    recall  f1-score   support
+### RGB MODEL
 
-     Highway       0.96      0.97      0.96       250
-       River       0.98      0.92      0.95       250
+| Class | Precision | Recall | F1-Score | Support |
+| :--- | :---: | :---: | :---: | :---: |
+| **Highway** | 0.96 | 0.97 | 0.96 | 250 |
+| **River** | 0.98 | 0.92 | 0.95 | 250 |
+| | | | | |
+| **micro avg** | 0.97 | 0.94 | 0.96 | 500 |
+| **macro avg** | 0.97 | 0.94 | 0.96 | 500 |
+| **weighted avg** | 0.97 | 0.94 | 0.96 | 500 |
 
-   micro avg       0.97      0.94      0.96       500
-   macro avg       0.97      0.94      0.96       500
-weighted avg       0.97      0.94      0.96       500
+<br>
 
+### MULTISPECTRAL MODEL
 
-=== MULTISPECTRAL MODEL ===
-              precision    recall  f1-score   support
-
-     Highway       0.99      0.98      0.98       250
-       River       0.99      0.99      0.99       250
-
-   micro avg       0.99      0.98      0.99       500
-   macro avg       0.99      0.98      0.99       500
-weighted avg       0.99      0.98      0.99       500
+| Class | Precision | Recall | F1-Score | Support |
+| :--- | :---: | :---: | :---: | :---: |
+| **Highway** | 0.99 | 0.98 | 0.98 | 250 |
+| **River** | 0.99 | 0.99 | 0.99 | 250 |
+| | | | | |
+| **micro avg** | 0.99 | 0.98 | 0.99 | 500 |
+| **macro avg** | 0.99 | 0.98 | 0.99 | 500 |
+| **weighted avg** | 0.99 | 0.98 | 0.99 | 500 |
