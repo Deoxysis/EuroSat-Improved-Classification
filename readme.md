@@ -35,12 +35,6 @@ The notebook includes a detailed analytical breakdown to demonstrate how multisp
 * Rasterio (for reading GeoTIFFs)
 * Matplotlib & Seaborn (for metric visualizations)
 
-### Data Preparation
-1. Download the EuroSAT multispectral (GeoTIFF) dataset.
-2. Ensure your train, validation, and test CSV splits are located in the `data/` directory.
-
-### Running the Code
-Run all cells in the provided Jupyter Notebook to install dependencies, load the label metadata, train both models concurrently, and generate the comparative analysis reports.
 
 ### RGB MODEL
 
